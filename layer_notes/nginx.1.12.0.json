@@ -1,0 +1,106 @@
+[
+    {
+        "Id": "sha256:313ec0a602bcdbff64e58bd5d83945b3d82ff8532e8275b4718c0a6c965a0795",
+        "RepoTags": [
+            "nginx:1.12.0"
+        ],
+        "RepoDigests": [
+            "nginx@sha256:aea0e686832d38c32a33ea6c6fcd0070598d7f09dce33d3bf7b2ce27b347f600"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2017-06-23T00:56:41.676492713Z",
+        "Container": "7170202dff18420563043ff13bfd412fe523bbef23afcb54afa4b68b7127936e",
+        "ContainerConfig": {
+            "Hostname": "e0b8fdcbddfa",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NGINX_VERSION=1.12.0-1~stretch",
+                "NJS_VERSION=1.12.0.0.1.10-1~stretch"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"nginx\" \"-g\" \"daemon off;\"]"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:ec459360d3700b06fb51e8697bbeea3d2f35afcae05d20359b95c2836de8de5d",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": [],
+            "Labels": {},
+            "StopSignal": "SIGQUIT"
+        },
+        "DockerVersion": "17.03.1-ce",
+        "Author": "NGINX Docker Maintainers \"docker-maint@nginx.com\"",
+        "Config": {
+            "Hostname": "e0b8fdcbddfa",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NGINX_VERSION=1.12.0-1~stretch",
+                "NJS_VERSION=1.12.0.0.1.10-1~stretch"
+            ],
+            "Cmd": [
+                "nginx",
+                "-g",
+                "daemon off;"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:ec459360d3700b06fb51e8697bbeea3d2f35afcae05d20359b95c2836de8de5d",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": [],
+            "Labels": {},
+            "StopSignal": "SIGQUIT"
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 107463515,
+        "VirtualSize": 107463515,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/2c5fed66f48d2ad8c9299dc7eea9e93c55dd42439c89609bf67895cc725f95d9/diff:/var/lib/docker/overlay2/dacb305ba5295fdba0b67b4ec07b4a3edaac1f6c5be9dc9df6438cba570f0933/diff",
+                "MergedDir": "/var/lib/docker/overlay2/86c5cb129119c34caabf344825c9ee45f11852cab4d182aa52ffa64987f5ae25/merged",
+                "UpperDir": "/var/lib/docker/overlay2/86c5cb129119c34caabf344825c9ee45f11852cab4d182aa52ffa64987f5ae25/diff",
+                "WorkDir": "/var/lib/docker/overlay2/86c5cb129119c34caabf344825c9ee45f11852cab4d182aa52ffa64987f5ae25/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:54522c622682789028c72c5ba0b081d42a962b406cbc1eb35f3175c646ebf4dc",
+                "sha256:8246593fe84c6ded4a9c1d26bf8c6dbab2cbec8b328a2c4426ef233fd3b2f215",
+                "sha256:caef1bbc7dcb36f419ae36357e93103496c4b34b42979496b4b2a638c760a972"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
